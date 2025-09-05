@@ -22,7 +22,6 @@
     }
   }
 
-  // Only register once
   if (!customElements.get("figma-deck")) {
     customElements.define("figma-deck", FigmaDeck);
   }
